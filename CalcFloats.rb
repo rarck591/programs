@@ -1,3 +1,5 @@
+Calculates as floats
+
 puts 1.0 + 3.0
 puts 2.0 * 3.0
 puts 5.0 - 8.0

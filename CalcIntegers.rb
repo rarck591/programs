@@ -1,3 +1,5 @@
+Calculator with Integers
+
 puts 1+2
 puts 2*3
 puts 5-8
