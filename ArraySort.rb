@@ -13,9 +13,13 @@ while true
   end
 
   words.push word
+  
 end
 
 puts 'Here are your alphabetically sorted words:'
+
 puts ''
+
 puts words.sort
+
 puts ''
