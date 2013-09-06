@@ -63,17 +63,3 @@ dealertotal = calculate_total(dealercards)
 puts 'The player\'s cards are: ' + playercards.to_s + ', for a total of ' + playertotal.to_s + '.'
 
 puts 'The dealer\'s cards are: ' + dealercards.to_s + ', for a total of ' + dealertotal.to_s + '.'
-
-if playertotal == 21
-	puts 'Blackjack! WINNER, WINNER! CHICKEN DINNER!!'
-elsif playertotal > 21
-	puts 'Player busts. Place your bets.'
-else dealertotal > 21
-	puts 'Dealer busts. You win!'
-end
-
-puts ''
-
-while playertotal < 21
-  puts 'What would you like to do?  1) Hit 2) Stand'
-  action = gets.chomp
