@@ -36,3 +36,14 @@ end
 while playertotal < 21
   puts 'What would you like to do?  1) Hit 2) Stand'
   action = gets.chomp
+
+
+
+if playertotal == 21
+    puts 'Blackjack! WINNER, WINNER! CHICKEN DINNER!!'
+    exit
+elsif playertotal > 21
+    puts 'Player busts. Place your bets.'
+else dealertotal > 21
+    puts 'Dealer busts. You win!'
+end

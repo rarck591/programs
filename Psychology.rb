@@ -64,3 +64,5 @@ puts ''
 puts 'We used the questions about Mexican food to throw you off.'
 
 puts ''
+
+puts wet_bed
